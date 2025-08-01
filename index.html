@@ -1,70 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+ <html lang="en">
+ <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Travel Photo Collection</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>US Social Studies Textbooks</title>
   <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      background-color: #f0f0f0;
-      color: #333;
-    }
-    header {
-      background-color: #2c3e50;
-      padding: 20px;
-      text-align: center;
-      color: white;
-    }
-    h1 {
-      margin: 0;
-    }
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 15px;
-      padding: 20px;
-    }
-    .gallery img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-      transition: transform 0.3s ease;
-    }
-    .gallery img:hover {
-      transform: scale(1.03);
-    }
-    footer {
-      background-color: #34495e;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      margin-top: 40px;
-    }
+  body {
+  font-family: sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  }
+  header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+  margin-bottom: 20px;
+  }
+  h1 {
+  margin-top: 0;
+  }
+  .container {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .section {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  }
+  .section:last-child {
+  border-bottom: none;
+  }
+  .textbook-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 15px;
+  }
+  .textbook-item img {
+  max-width: 150px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  }
+  h2 {
+  color: #333;
+  }
+  footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #777;
+  font-size: 0.9em;
+  }
   </style>
-</head>
-<body>
-
+ </head>
+ <body>
   <header>
-    <h1>Travel Photo Collection</h1>
-    <p>Explore beautiful places around the world</p>
+  <h1>A Look at US Social Studies Textbooks</h1>
   </header>
+  <div class="container">
+  <section class="section intro">
+  <h2>Introduction</h2>
+  <p>Social studies education in the United States aims to provide students with a foundational understanding of history, geography, civics, economics, and culture. Textbooks play a crucial role in delivering this curriculum, though their content and approach can vary significantly by state and publisher.</p>
+  </section>
 
-  <main class="gallery">
-    <img src="https://source.unsplash.com/featured/?beach" alt="Beach">
-    <img src="https://source.unsplash.com/featured/?mountains" alt="Mountains">
-    <img src="https://source.unsplash.com/featured/?city" alt="City">
-    <img src="https://source.unsplash.com/featured/?forest" alt="Forest">
-    <img src="https://source.unsplash.com/featured/?desert" alt="Desert">
-    <img src="https://source.unsplash.com/featured/?island" alt="Island">
-    <img src="https://source.unsplash.com/featured/?waterfall" alt="Waterfall">
-    <img src="https://source.unsplash.com/featured/?sunset" alt="Sunset">
-  </main>
+  <section class="section elementary">
+  <h2>Elementary School Textbooks</h2>
+  <p>In the early grades, social studies often focuses on basic concepts like community, citizenship, and simple historical narratives.</p>
+  <div class="textbook-item">
+  <img src="/images/elementary_history_placeholder.jpg" alt="Elementary History Textbook Cover">
+  <p><strong>Elementary US History:</strong> Introduces fundamental concepts of American history through engaging stories and visuals.</p>
+  </div>
+  <div class="textbook-item">
+  <img src="/images/elementary_geography_placeholder.jpg" alt="Elementary Geography Textbook Cover">
+  <p><strong>Elementary Geography:</strong> Focuses on maps, globes, and basic geographical features of the United States.</p>
+  </div>
+  </section>
 
+  <section class="section middle-school">
+  <h2>Middle School Textbooks</h2>
+  <p>Middle school social studies typically delves deeper into US and world history, as well as more complex civic and economic principles.</p>
+  <div class="textbook-item">
+  <img src="/images/middle_school_ushistory_placeholder.jpg" alt="Middle School US History Textbook Cover">
+  <p><strong>Middle School US History:</strong> Covers major periods and events in American history in more detail.</p>
+  </div>
+  <div class="textbook-item">
+  <img src="/images/middle_school_civics_placeholder.jpg" alt="Middle School Civics Textbook Cover">
+  <p><strong>Middle School Civics and Government:</strong> Explores the structure and function of the US government.</p>
+  </div>
+  </section>
+
+  <section class="section high-school">
+  <h2>High School Textbooks</h2>
+  <p>High school social studies often includes specialized courses such as AP US History, AP Government, Economics, and World History.</p>
+  <div class="textbook-item">
+  <img src="/images/high_school_apush_placeholder.jpg" alt="AP US History Textbook Cover">
+  <p><strong>AP US History:</strong> A college-level survey of American history.</p>
+  </div>
+  <div class="textbook-item">
+  <img src="/images/high_school_economics_placeholder.jpg" alt="Economics Textbook Cover">
+  <p><strong>Economics:</strong> Introduces microeconomic and macroeconomic principles relevant to the US economy.</p>
+  </div>
+  </section>
+  </div>
   <footer>
-    <p>&copy; 2025 Travel Photo Collection. All rights reserved.</p>
+  <p>&copy; 2023 Information about US Social Studies Textbooks</p>
   </footer>
-
-</body>
-</html>
+ </body>
+ </html>
